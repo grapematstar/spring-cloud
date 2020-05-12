@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      registerWithEureka: false
+      proferSameZoneEureka: true
+  intstnace:
+    metadataMap:
+      zone: zone1
+server:
+  port: ${PORT:8765}

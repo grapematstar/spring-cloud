@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sample-client-service" />
         <module name="sample-discovery-service" />
+        <module name="sample-config-service" />
         <module name="sample-gateway-service" />
       </profile>
     </annotationProcessing>
