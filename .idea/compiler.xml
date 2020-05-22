@@ -11,5 +11,8 @@
         <module name="sample-gateway-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sample-config-service" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
